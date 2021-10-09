@@ -36,7 +36,7 @@
                                 {{ __('Cerrar sesión') }}
                             </button>
                         </form>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded bg-danger" href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded bg-danger" href="carrito"><i class="fas fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -86,9 +86,11 @@
                                                 </div>
                                                 
                                                 <img class="img-fluid" src="{{$calzado_->imagen}}" alt="..." />
+                                                
                                             
                                             </div>
                                         </div>
+                                        
                             <!-- Portfolio Modal 1-->
                             <div class="portfolio-modal modal fade" id="portfolioModal1{{$calzado_->id}}" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
                                 <div class="modal-dialog modal-xl">
@@ -112,10 +114,8 @@
                                                         <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                                         <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                                         <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                                        <button class="btn btn-warning" href="#!" data-bs-dismiss="modal">
-                                                            <i class=""></i>
-                                                            Comprar
-                                                        </button>
+                                                        <li class=""><a class="btn btn-warning" href="#">Comprar</a></li>
+                                                        <li class=""><a class="btn btn-warning" href="#">Agregar al carrito</a></li>
                                                     </div>
                                                 </div>
                                             </div>
@@ -138,6 +138,7 @@
                                                         <img class="img-fluid" src="{{$calzado_->imagen}}" alt="..." />
                                                     
                                             </div>
+                                            
                                         </div>
                             <!-- Portfolio Modal 1-->
                             <div class="portfolio-modal modal fade" id="portfolioModal1{{$calzado_->id}}" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
@@ -162,10 +163,8 @@
                                                         <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                                         <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                                         <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                                        <button class="btn btn-warning" href="#!" data-bs-dismiss="modal">
-                                                            <i class=""></i>
-                                                            Comprar
-                                                        </button>
+                                                        <li class=""><a class="btn btn-warning" href="#">Comprar</a></li>
+                                                        <li class=""><a class="btn btn-warning" href="#">Agregar al carrito</a></li>
                                                     </div>
                                                 </div>
                                             </div>
@@ -212,10 +211,8 @@
                                                         <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                                         <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                                         <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                                        <button class="btn btn-warning" href="#!" data-bs-dismiss="modal">
-                                                            <i class=""></i>
-                                                            Comprar
-                                                        </button>
+                                                        <li class=""><a class="btn btn-warning" href="#">Comprar</a></li>
+                                                        <li class=""><a class="btn btn-warning" href="#">Agregar al carrito</a></li>
                                                     </div>
                                                 </div>
                                             </div>
@@ -262,10 +259,8 @@
                                                         <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                                         <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                                         <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                                        <button class="btn btn-warning" href="#!" data-bs-dismiss="modal">
-                                                            <i class=""></i>
-                                                            Comprar
-                                                        </button>
+                                                        <li class=""><a class="btn btn-warning" href="#">Comprar</a></li>
+                                                        <li class=""><a class="btn btn-warning" href="#">Agregar al carrito</a></li>
                                                     </div>
                                                 </div>
                                             </div>
@@ -312,10 +307,8 @@
                                                         <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                                         <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                                         <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                                        <button class="btn btn-warning" href="#!" data-bs-dismiss="modal">
-                                                            <i class=""></i>
-                                                            Comprar
-                                                        </button>
+                                                        <li class=""><a class="btn btn-warning" href="#">Comprar</a></li>
+                                                        <li class=""><a class="btn btn-warning" href="#">Agregar al carrito</a></li>
                                                     </div>
                                                 </div>
                                             </div>
@@ -362,10 +355,8 @@
                                                         <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                                         <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                                         <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                                        <button class="btn btn-warning" href="#!" data-bs-dismiss="modal">
-                                                            <i class=""></i>
-                                                            Comprar
-                                                        </button>
+                                                        <li class=""><a class="btn btn-warning" href="#">Comprar</a></li>
+                                                        <li class=""><a class="btn btn-warning" href="#">Agregar al carrito</a></li>
                                                     </div>
                                                 </div>
                                             </div>

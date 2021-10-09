@@ -29,5 +29,6 @@ Route::resource('vista', 'App\Http\Controllers\VistaController');
 Route::resource('vendedor', 'App\Http\Controllers\VendedorController');
 Route::resource('perfil', 'App\Http\Controllers\UserController');
 Route::resource('admin', 'App\Http\Controllers\AdminViewController');
+Route::resource('carrito', 'App\Http\Controllers\CarritoController');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

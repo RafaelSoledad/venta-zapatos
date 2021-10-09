@@ -38,10 +38,7 @@
                                     <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                     <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                     <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                    <button class="btn btn-warning" href="login" data-bs-dismiss="modal">
-                                        <i class=""></i>
-                                        Comprar
-                                    </button>
+                                    <li class=""><a class="btn btn-warning" href="login">Comprar</a></li>
                                 </div>
                             </div>
                         </div>
@@ -88,10 +85,8 @@
                                     <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                     <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                     <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                    <button class="btn btn-warning" href="login" data-bs-dismiss="modal">
-                                        <i class=""></i>
-                                        Comprar
-                                    </button>
+                                    <li class=""><a class="btn btn-warning" href="login">Comprar</a></li>
+                                
                                 </div>
                             </div>
                         </div>
@@ -138,10 +133,7 @@
                                     <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                     <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                     <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                    <button class="btn btn-warning" href="login" data-bs-dismiss="modal">
-                                        <i class=""></i>
-                                        Comprar
-                                    </button>
+                                    <li class=""><a class="btn btn-warning" href="login">Comprar</a></li>
                                 </div>
                             </div>
                         </div>
@@ -188,10 +180,7 @@
                                     <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                     <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                     <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                    <button class="btn btn-warning" href="login" data-bs-dismiss="modal">
-                                        <i class=""></i>
-                                        Comprar
-                                    </button>
+                                    <li class=""><a class="btn btn-warning" href="login">Comprar</a></li>
                                 </div>
                             </div>
                         </div>
@@ -238,10 +227,7 @@
                                     <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                     <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                     <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                    <button class="btn btn-warning" href="login" data-bs-dismiss="modal">
-                                        <i class=""></i>
-                                        Comprar
-                                    </button>
+                                    <li class=""><a class="btn btn-warning" href="login">Comprar</a></li>
                                 </div>
                             </div>
                         </div>
@@ -288,10 +274,7 @@
                                     <p class="mb-4">Marca: {{$calzado_->marca}}</p>
                                     <p class="mb-4">Modelo: {{$calzado_->modelo}}</p>
                                     <p class="mb-4">Precio: ${{$calzado_->precio}}</p>
-                                    <button class="btn btn-warning" href="login" data-bs-dismiss="modal">
-                                        <i class=""></i>
-                                        Comprar
-                                    </button>
+                                    <li class=""><a class="btn btn-warning" href="login">Comprar</a></li>
                                 </div>
                             </div>
                         </div>
@@ -302,3 +285,4 @@
         <?php } ?>
 @endforeach
 @endsection 
+
